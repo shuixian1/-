@@ -1,0 +1,116 @@
+/* 头部样式开始 */
+.header{
+    width: 100%;
+    height: 55px;
+   background-color: #fff;
+   font-size: 12px;
+   /* 行高等于高，一行文字会垂直居中，行高也具有继承性 */
+   line-height: 55px;
+}
+.header-left{
+    float: left;
+    width: 179px;
+    height: 54px;
+    background-color: #cf1132;
+    color: #fff;
+}
+.header-right{
+    float: right;
+    color: #fff;
+    width: 139px;
+    height: 54px;
+    /* border-left:1px solid#dadada ; */
+}
+/* 头部样式结束 */
+/* 导航样式开始 */
+.nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    /* 背景图片不平铺 位置是水平居中 垂直居上 */
+    background: url(../images/e3d9698d-9607-4190-844d-2e1fc4663439.jfif) no-repeat center top;
+}
+/* 水平居中的容器 不设置高度 高度由内容撑开 */
+.wrap{
+    width: 1180px;
+    margin: 0 auto;
+}
+.nav li{
+    float: left;
+    width: 84.28px;
+    height: 70px;
+}
+.nav a{
+    color: #fff;
+    font-size: 14px;
+}
+.nav span{
+    font-size: 12px;
+    margin-left: 8px;
+}
+.nav li:hover>a{
+    color:#000
+}
+.nav li:hover{
+    background: url(../images/80c2f571-a312-48ac-87a5-d55e6764e24e.jfif) no-repeat;
+}
+.nav li:hover span{
+    color: #c2a060;
+}
+.active{
+  
+    background: url(../images/80c2f571-a312-48ac-87a5-d55e6764e24e.jfif) no-repeat;
+}
+.active a{
+    color: #000;
+}
+.active span{
+   
+    color: #c2a060;
+}
+/* 新闻资讯下拉列表 */
+.nav-list{
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left:0;
+    top: 60px;
+    width: 100%;
+    height: 140px;
+    background: url(../images/be373d0f-3326-49c6-be7b-f5e4004bd7d9.jfif)no-repeat center 0;
+}
+.nav li:hover>.nav-list{
+    display: block;
+}
+/* 导航样式结束 */
+/* banner样式开始 */
+.banner{
+    top: -10px;
+    position: relative;
+    width: 100%;
+    height: 784px;
+    overflow: hidden;
+
+}
+.banner>img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px; 
+}
+.logo{
+    position: absolute;
+    width: 77px;
+    height: 247px;
+    left: 150px;
+    top: 143px;
+
+}
+.logo>a{
+    display: block;
+    width: 77px;
+    height: 247px;
+    background: url(../images/10002.webp) no-repeat;
+    background-size: 100%;
+}
+/* banner样式结束 */
